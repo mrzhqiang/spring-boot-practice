@@ -2,7 +2,7 @@ package chapter01.section03.example02;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public final class Main {
+public final class Example02 {
   public static void main(String[] args) {
     AnnotationConfigApplicationContext context =
         new AnnotationConfigApplicationContext(JavaConfig.class);
