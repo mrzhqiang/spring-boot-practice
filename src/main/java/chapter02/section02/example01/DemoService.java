@@ -1,4 +1,4 @@
-package chapter02.section01.example02;
+package chapter02.section02.example01;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
