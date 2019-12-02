@@ -13,7 +13,7 @@ import org.springframework.core.io.Resource;
 
 @Configuration
 @ComponentScan("chapter02.section02.example01")
-@PropertySource("classpath:chapter02/section01/example01/test.properties")
+@PropertySource("classpath:chapter02/section02/example01/test.properties")
 public class ElConfig {
   @Value("I Love You!")
   private String normal;
@@ -23,7 +23,7 @@ public class ElConfig {
   private double randomNumber;
   @Value("#{demoService.another}")
   private String fromAnother;
-  @Value("classpath:chapter02/section01/example01/test.txt")
+  @Value("classpath:chapter02/section02/example01/test.txt")
   private Resource testFile;
   @Value("http://www.baidu.com")
   private Resource testUrl;
