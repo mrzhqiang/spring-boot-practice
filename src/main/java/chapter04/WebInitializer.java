@@ -1,4 +1,4 @@
-package chapter04.section02.example01;
+package chapter04;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
