@@ -4,6 +4,8 @@ import chapter04.section04.example01.DemoInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.multipart.MultipartResolver;
+import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.PathMatchConfigurer;
@@ -41,9 +43,17 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
   }
 
   // 4.4.4 >>> 1 快捷的 ViewController
-  //@Override public void addViewControllers(ViewControllerRegistry registry) {
-  //  registry.addViewController("/index").setViewName("/index");
-  //}
+  @Override public void addViewControllers(ViewControllerRegistry registry) {
+    registry.addViewController("/index").setViewName("/index");
+    registry.addViewController("/toUpload").setViewName("/upload");
+  }
+
+  @Bean
+  public MultipartResolver multipartResolver() {
+    CommonsMultipartResolver multipartResolver = new CommonsMultipartResolver();
+    multipartResolver.setMaxUploadSize(1000000);
+    return multipartResolver;
+  }
 
   // 不忽略 URL 路径中小数点后的字符参数
   @Override public void configurePathMatch(PathMatchConfigurer configurer) {
