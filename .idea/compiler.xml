@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-practice" />
+        <module name="spring-boot-web" />
         <module name="spring-boot-basics" />
         <module name="spring-boot-core" />
       </profile>
@@ -15,6 +16,7 @@
       <module name="spring-boot-basics" target="1.8" />
       <module name="spring-boot-core" target="1.8" />
       <module name="spring-boot-practice" target="1.8" />
+      <module name="spring-boot-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -23,6 +25,7 @@
       <module name="spring-boot-basics" options="-parameters" />
       <module name="spring-boot-core" options="-parameters" />
       <module name="spring-boot-practice" options="" />
+      <module name="spring-boot-web" options="-parameters" />
     </option>
   </component>
 </project>
