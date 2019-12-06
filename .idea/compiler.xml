@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-practice" />
         <module name="spring-boot-basics" />
+        <module name="spring-boot-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-basics" target="1.8" />
+      <module name="spring-boot-core" target="1.8" />
       <module name="spring-boot-practice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -19,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-basics" options="-parameters" />
+      <module name="spring-boot-core" options="-parameters" />
       <module name="spring-boot-practice" options="" />
     </option>
   </component>
