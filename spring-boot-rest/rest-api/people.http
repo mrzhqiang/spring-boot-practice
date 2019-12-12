@@ -1,0 +1,16 @@
+GET http://localhost:8080/api/people
+
+> {% client.global.set("name", response.headers.valueOf("Date")); %}
+###
+
+POST http://localhost:8080/api/people
+Content-Type: application/json
+
+{
+  "name": "{{name}}",
+  "address": "成都",
+  "age": 24
+}
+
+###
+
