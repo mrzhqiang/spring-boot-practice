@@ -2,6 +2,7 @@ package com.github.mrzhqiang.springbootdata;
 
 import com.github.mrzhqiang.springbootdata.entity.Person;
 import com.github.mrzhqiang.springbootdata.repository.PersonRepository;
+import com.github.mrzhqiang.springbootdata.service.DemoService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -14,6 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class DataController {
   @Autowired
   private PersonRepository personRepository;
+  @Autowired
+  private DemoService demoService;
 
   @RequestMapping("/save")
   public Person save(String name, String address, Integer age) {
@@ -53,5 +56,15 @@ public class DataController {
   @RequestMapping("/auto")
   public Page<Person> auto(Person person) {
     return personRepository.findByAuto(person, PageRequest.of(0, 10));
+  }
+
+  @RequestMapping("/rollback")
+  public Person rollback(Person person) {
+    return demoService.savePersonWithRollBack(person);
+  }
+
+  @RequestMapping("/norollback")
+  public Person noRollback(Person person) {
+    return demoService.savePersonWithoutRollBack(person);
   }
 }
