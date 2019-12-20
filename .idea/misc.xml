@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/spring-boot-rest/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mongo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-db-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-security/pom.xml" />
       </list>
     </option>
   </component>
