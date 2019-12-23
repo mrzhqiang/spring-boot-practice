@@ -8,11 +8,11 @@
 - [X] 第一章 Spring 基础
 - [X] 第二章 常用配置
 - [X] 第三章 高级话题
-- [ ] 第四章 Spring MVC 基础
-- [ ] 第五章 Spring Boot 基础
-- [ ] 第六章 Spring Boot 核心
-- [ ] 第七章 Spring Boot 的 Web 开发
-- [ ] 第八章 Spring Boot 的数据访问
+- [X] 第四章 Spring MVC 基础
+- [X] 第五章 Spring Boot 基础
+- [X] 第六章 Spring Boot 核心
+- [X] 第七章 Spring Boot 的 Web 开发
+- [X] 第八章 Spring Boot 的数据访问
 - [ ] 第九章 Spring Boot 企业级开发
 - [ ] 第十章 Spring Boot 开发部署与测试
 - [ ] 第十一章 应用监控
