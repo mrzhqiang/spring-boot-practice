@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/spring-boot-batch/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-activemq/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-integration/pom.xml" />
       </list>
     </option>
   </component>

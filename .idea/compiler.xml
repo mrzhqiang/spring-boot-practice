@@ -6,19 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-mongo" />
-        <module name="spring-boot-rest" />
-        <module name="spring-boot-redis" />
-        <module name="spring-boot-practice" />
-        <module name="spring-boot-activemq" />
-        <module name="spring-boot-basics" />
-        <module name="spring-boot-web" />
-        <module name="spring-boot-core" />
-        <module name="spring-boot-security" />
         <module name="spring-boot-db-redis" />
-        <module name="spring-boot-batch" />
         <module name="spring-boot-data" />
+        <module name="spring-boot-practice" />
+        <module name="spring-boot-core" />
+        <module name="spring-boot-activemq" />
+        <module name="spring-boot-security" />
+        <module name="spring-boot-mongo" />
+        <module name="spring-boot-basics" />
+        <module name="spring-boot-rest" />
+        <module name="spring-boot-integration" />
         <module name="spring-boot-rabbitmq" />
+        <module name="spring-boot-batch" />
+        <module name="spring-boot-web" />
+        <module name="spring-boot-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +29,7 @@
       <module name="spring-boot-core" target="1.8" />
       <module name="spring-boot-data" target="1.8" />
       <module name="spring-boot-db-redis" target="1.8" />
+      <module name="spring-boot-integration" target="1.8" />
       <module name="spring-boot-mongo" target="1.8" />
       <module name="spring-boot-practice" target="1.8" />
       <module name="spring-boot-rabbitmq" target="1.8" />
@@ -46,6 +48,7 @@
       <module name="spring-boot-core" options="-parameters" />
       <module name="spring-boot-data" options="-parameters" />
       <module name="spring-boot-db-redis" options="-parameters" />
+      <module name="spring-boot-integration" options="-parameters" />
       <module name="spring-boot-mongo" options="-parameters" />
       <module name="spring-boot-practice" options="" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
