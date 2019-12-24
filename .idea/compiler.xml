@@ -18,6 +18,7 @@
         <module name="spring-boot-db-redis" />
         <module name="spring-boot-batch" />
         <module name="spring-boot-data" />
+        <module name="spring-boot-rabbitmq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +30,7 @@
       <module name="spring-boot-db-redis" target="1.8" />
       <module name="spring-boot-mongo" target="1.8" />
       <module name="spring-boot-practice" target="1.8" />
+      <module name="spring-boot-rabbitmq" target="1.8" />
       <module name="spring-boot-redis" target="1.8" />
       <module name="spring-boot-rest" target="1.8" />
       <module name="spring-boot-security" target="1.8" />
@@ -46,6 +48,7 @@
       <module name="spring-boot-db-redis" options="-parameters" />
       <module name="spring-boot-mongo" options="-parameters" />
       <module name="spring-boot-practice" options="" />
+      <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-boot-redis" options="-parameters" />
       <module name="spring-boot-rest" options="-parameters" />
       <module name="spring-boot-security" options="-parameters" />
