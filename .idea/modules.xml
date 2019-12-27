@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-boot-activemq/spring-boot-activemq.iml" filepath="$PROJECT_DIR$/spring-boot-activemq/spring-boot-activemq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-actuator/spring-boot-actuator.iml" filepath="$PROJECT_DIR$/spring-boot-actuator/spring-boot-actuator.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-basics/spring-boot-basics.iml" filepath="$PROJECT_DIR$/spring-boot-basics/spring-boot-basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-batch/spring-boot-batch.iml" filepath="$PROJECT_DIR$/spring-boot-batch/spring-boot-batch.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-core/spring-boot-core.iml" filepath="$PROJECT_DIR$/spring-boot-core/spring-boot-core.iml" />
