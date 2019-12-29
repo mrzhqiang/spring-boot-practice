@@ -1,0 +1,17 @@
+server:
+  port: 80
+spring:
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always

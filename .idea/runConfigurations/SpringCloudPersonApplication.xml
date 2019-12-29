@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="SpringCloudPersonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="person" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.mrzhqiang.springcloudperson.SpringCloudPersonApplication" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

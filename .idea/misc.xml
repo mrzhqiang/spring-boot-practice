@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/spring-boot-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-integration/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-introduction/pom.xml" />
       </list>
     </option>
   </component>

@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-introduction/spring-cloud-config/config.iml" filepath="$PROJECT_DIR$/spring-cloud-introduction/spring-cloud-config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-introduction/spring-cloud-discovery/discovery.iml" filepath="$PROJECT_DIR$/spring-cloud-introduction/spring-cloud-discovery/discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-introduction/spring-cloud-monitor/monitor.iml" filepath="$PROJECT_DIR$/spring-cloud-introduction/spring-cloud-monitor/monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-introduction/spring-cloud-person/person.iml" filepath="$PROJECT_DIR$/spring-cloud-introduction/spring-cloud-person/person.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-introduction/spring-cloud-some/some.iml" filepath="$PROJECT_DIR$/spring-cloud-introduction/spring-cloud-some/some.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-activemq/spring-boot-activemq.iml" filepath="$PROJECT_DIR$/spring-boot-activemq/spring-boot-activemq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-actuator/spring-boot-actuator.iml" filepath="$PROJECT_DIR$/spring-boot-actuator/spring-boot-actuator.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-basics/spring-boot-basics.iml" filepath="$PROJECT_DIR$/spring-boot-basics/spring-boot-basics.iml" />
@@ -16,6 +21,8 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-rest/spring-boot-rest.iml" filepath="$PROJECT_DIR$/spring-boot-rest/spring-boot-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-security/spring-boot-security.iml" filepath="$PROJECT_DIR$/spring-boot-security/spring-boot-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-web/spring-boot-web.iml" filepath="$PROJECT_DIR$/spring-boot-web/spring-boot-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-introduction/spring-cloud-introduction.iml" filepath="$PROJECT_DIR$/spring-cloud-introduction/spring-cloud-introduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-introduction/spring-cloud-ui/ui.iml" filepath="$PROJECT_DIR$/spring-cloud-introduction/spring-cloud-ui/ui.iml" />
     </modules>
   </component>
 </project>

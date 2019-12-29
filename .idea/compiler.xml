@@ -6,24 +6,35 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config" />
+        <module name="spring-boot-data" />
+        <module name="ui" />
         <module name="spring-boot-db-redis" />
         <module name="spring-boot-actuator" />
-        <module name="spring-boot-data" />
+        <module name="spring-boot-activemq" />
+        <module name="some" />
         <module name="spring-boot-practice" />
         <module name="spring-boot-core" />
-        <module name="spring-boot-activemq" />
+        <module name="spring-boot-rest" />
+        <module name="discovery" />
         <module name="spring-boot-security" />
         <module name="spring-boot-mongo" />
         <module name="spring-boot-basics" />
-        <module name="spring-boot-rest" />
+        <module name="person" />
         <module name="spring-boot-integration" />
         <module name="spring-boot-rabbitmq" />
         <module name="spring-boot-batch" />
+        <module name="monitor" />
         <module name="spring-boot-web" />
         <module name="spring-boot-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config" target="1.8" />
+      <module name="discovery" target="1.8" />
+      <module name="monitor" target="1.8" />
+      <module name="person" target="1.8" />
+      <module name="some" target="1.8" />
       <module name="spring-boot-activemq" target="1.8" />
       <module name="spring-boot-actuator" target="1.8" />
       <module name="spring-boot-basics" target="1.8" />
@@ -39,11 +50,18 @@
       <module name="spring-boot-rest" target="1.8" />
       <module name="spring-boot-security" target="1.8" />
       <module name="spring-boot-web" target="1.8" />
+      <module name="spring-cloud-introduction" target="1.8" />
+      <module name="ui" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config" options="-parameters" />
+      <module name="discovery" options="-parameters" />
+      <module name="monitor" options="-parameters" />
+      <module name="person" options="-parameters" />
+      <module name="some" options="-parameters" />
       <module name="spring-boot-activemq" options="-parameters" />
       <module name="spring-boot-actuator" options="-parameters" />
       <module name="spring-boot-basics" options="-parameters" />
@@ -59,6 +77,8 @@
       <module name="spring-boot-rest" options="-parameters" />
       <module name="spring-boot-security" options="-parameters" />
       <module name="spring-boot-web" options="-parameters" />
+      <module name="spring-cloud-introduction" options="-parameters" />
+      <module name="ui" options="-parameters" />
     </option>
   </component>
 </project>
