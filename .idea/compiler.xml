@@ -7,15 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config" />
-        <module name="spring-boot-data" />
         <module name="ui" />
         <module name="spring-boot-db-redis" />
         <module name="spring-boot-actuator" />
-        <module name="spring-boot-activemq" />
+        <module name="spring-boot-data" />
         <module name="some" />
         <module name="spring-boot-practice" />
         <module name="spring-boot-core" />
-        <module name="spring-boot-rest" />
+        <module name="spring-boot-activemq" />
         <module name="discovery" />
         <module name="spring-boot-security" />
         <module name="spring-boot-mongo" />
@@ -26,6 +25,7 @@
         <module name="spring-boot-batch" />
         <module name="monitor" />
         <module name="spring-boot-web" />
+        <module name="spring-boot-rest" />
         <module name="spring-boot-redis" />
       </profile>
     </annotationProcessing>
