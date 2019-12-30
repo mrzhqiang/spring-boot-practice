@@ -13,10 +13,12 @@
 - [X] 第六章 Spring Boot 核心
 - [X] 第七章 Spring Boot 的 Web 开发
 - [X] 第八章 Spring Boot 的数据访问
-- [ ] 第九章 Spring Boot 企业级开发
-- [ ] 第十章 Spring Boot 开发部署与测试
-- [ ] 第十一章 应用监控
-- [ ] 第十二章 分布式系统开发
+- [X] 第九章 Spring Boot 企业级开发
+- [X] 第十章 Spring Boot 开发部署与测试
+- [X] 第十一章 应用监控
+- [X] 第十二章 分布式系统开发
+
+*注意：除 Docker-compose 部署之外，其他的都已实践完毕，并根据最新版本进行相应的调整。*
 
 # 声明
 仅供学习交流使用。
